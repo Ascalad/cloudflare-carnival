@@ -1,5 +1,5 @@
 name: No Response
-
+tab
 # Both `issue_comment` and `scheduled` event types are required for this Action
 # to work properly.
 
@@ -8,7 +8,7 @@ name: No Response
 # The label will be removed if the author comments.
 # If the author does not respond for a specific number of days, the issue will be automatically closed.
 # However, if they do respond, the issue will be re-opened automatically and the label will be removed.
-
+tab
 on:
   issue_comment:
     types: [created]
