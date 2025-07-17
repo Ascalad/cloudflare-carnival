@@ -1,4 +1,4 @@
-on:
+tab on:
   workflow_dispatch: {}
   schedule:
     - cron: "0 4 * * *"
